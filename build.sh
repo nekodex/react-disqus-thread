@@ -1,8 +1,8 @@
 #!/bin/sh
 BUILD="webpack --devtool source-map --config webpack.build.js"
 
-# Clean old build
-rm -rf build/
+# Clean old builds
+rm -rf build/ dist/
 
 # Transpile ES6
 babel -d build lib
