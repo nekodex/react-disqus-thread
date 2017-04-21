@@ -1,22 +1,22 @@
-# react-disqus-comments
+# react-disqus-thread
 
-## This is a fork
+## This is (yet another) fork
 Forked from the popular package by mzabriskie, but with a few fixes.
 
 ## Installing
 
 ```bash
-$ npm install react-disqus-comments
+$ npm install react-disqus-thread
 ```
 
 ## Example
 
 ```js
 var React = require('react');
-var ReactDisqusComments = require('react-disqus-comments');
+var ReactDisqusThread = require('react-disqus-thread');
 
 var App = createClass({
-	
+
 	handleNewComment: function(comment) {
 		console.log(comment.text);
 	}
